@@ -1,23 +1,22 @@
 body {
   font-family: 'Raleway', sans-serif;
-  color: color(grey, 'base');
 }
 
 .large-font {
-  font-size: 24px;
+  font-size: 2em;
+  font-weight: 700;
+  color: color(grey, 'dark');
 }
 
 .normal-font {
   font-size: 18px;
+  font-weight: 400;
+  color: color(grey, 'base');
 }
 
 .small-font {
   font-size: 14px;
+  font-weight: 400;
+  color: color(grey, 'light');
 }
 
-.bold {
-  font-weight: 700;
-}
-.normal {
-  font-weight: 400;
-}
