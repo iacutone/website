@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: 'Raleway', sans-serif; }
 
@@ -22,9 +23,38 @@ body {
   align-items: center; }
 
 #title {
-  padding-top: 36px; }
+  padding-top: 36px;
+  letter-spacing: 0.05em; }
 
 li {
   padding-bottom: 12px; }
+
+ul#menu {
+  padding: 0;
+  list-style: none; }
+
+.camera-retro:before {
+  content: ""; }
+
+.utensils:before {
+  content: '\f2e7'; }
+
+.pen:before {
+  content: '\f304'; }
+
+.music:before {
+  content: '\f001'; }
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  src: url("webfonts/fa-solid-900.eot");
+  src: url("webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("webfonts/fa-solid-900.woff2") format("woff2"), url("webfonts/fa-solid-900.woff") format("woff"), url("webfonts/fa-solid-900.ttf") format("truetype"), url("webfonts/fa-solid-900.svg#fontawesome") format("svg"); }
+.fa,
+.fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  padding-right: 1em; }
 
 /*# sourceMappingURL=style.css.map */
