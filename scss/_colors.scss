@@ -1,24 +1,33 @@
 $palettes: (
+    // primary
     blue: (
-      darker: hsl(201, 61%, 34%),
-      dark: hsl(198, 57%, 39%),
-      base: hsl(196, 59%, 42%),
-      light: hsl(194, 56%, 51%),
-      lighter: hsl(192, 61%, 53%),
+      darkest: hsl(215, 95%, 20%),
+      darker: hsl(211, 70%, 35%),
+      dark: hsl(205, 60%, 40%),
+      base: hsl(203, 50%, 50%),
+      light: hsl(201, 65%, 65%),
+      lighter: hsl(200, 80%, 80%),
+      lightest: hsl(199, 80%, 90%),
     ),
+    // neutral
     grey: (
-      dark: hsl(202, 57%, 15%),
-      base: hsl(201, 23%, 34%),
-      light: hsl(203, 15%, 37%),
+      darkest: hsl(0, 0%, 15%),
+      darker: hsl(0, 0%, 28%),
+      dark: hsl(0, 0%, 33%),
+      base: hsl(0, 0%, 50%),
+      light: hsl(0, 0%, 68%),
+      lighter: hsl(0, 0%, 83%),
+      lightest: hsl(0, 0%, 98%),
     ),
+    // accent
 );
 
-@function color($color,$tone){
-  @if map-has-key($palettes,$color){
-    $color: map-get($palettes,$color);
+@function color($color, $tone){
+  @if map-has-key($palettes, $color){
+    $color: map-get($palettes, $color);
 
-    @if map-has-key($color,$tone){
-      $tone: map-get($color,$tone);
+    @if map-has-key($color, $tone){
+      $tone: map-get($color, $tone);
       @return $tone;
     }
 
