@@ -26,12 +26,12 @@ body {
   padding-top: 36px;
   letter-spacing: 0.05em; }
 
-li {
-  padding-bottom: 12px; }
-
 ul#menu {
   padding: 0;
   list-style: none; }
+  ul#menu li {
+    padding-bottom: 12px;
+    text-align: right; }
 
 .camera-retro:before {
   content: ""; }
@@ -44,6 +44,9 @@ ul#menu {
 
 .music:before {
   content: '\f001'; }
+
+.code:before {
+  content: '\f121'; }
 
 @font-face {
   font-family: 'Font Awesome 5 Free';
