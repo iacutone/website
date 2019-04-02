@@ -1,21 +1,21 @@
 @charset "UTF-8";
 body {
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Roboto', sans-serif; }
 
 .large-font {
   font-size: 2em;
   font-weight: 700;
-  color: #102c3c; }
+  color: #262626; }
 
 .normal-font {
   font-size: 18px;
   font-weight: 400;
-  color: #435d6b; }
+  color: #474747; }
 
 .small-font {
   font-size: 14px;
   font-weight: 400;
-  color: #50626d; }
+  color: #545454; }
 
 body {
   display: flex;
