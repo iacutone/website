@@ -69,6 +69,9 @@ section#menu {
 .icon-book {
   background-image: url("svg/book.svg"); }
 
+.icon-envelope {
+  background-image: url("svg/envelope.svg"); }
+
 .icon:hover {
   filter: blur(1px); }
 
