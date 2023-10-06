@@ -5,6 +5,7 @@ cp -R svg/ build/svg
 cp style.css build/style.css
 cp index.html build/index.html
 cp software.html build/software.html
+cp talks.html build/talks.html
 cp favicon.ico build/favicon.ico
 
 s3cmd sync --recursive build/ s3://iacutone
