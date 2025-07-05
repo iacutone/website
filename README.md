@@ -1,5 +1,2 @@
-My personal website based on [refactoringui](https://refactoringui.com/).
+My personal website based.
 
-__Running Locally__
-
-1. Run `sass --watch scss/style.scss:style.css`

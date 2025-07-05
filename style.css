@@ -111,9 +111,12 @@ section {
     font-size: 2rem;
   }
 
-  #links ul,
   #menu ul {
     flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  #links ul {
     gap: 0.75rem;
   }
 
